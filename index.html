@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tic Tac Toe Game</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&display=swap" rel="stylesheet">
+	<link rel="icon" href="favicon.ico">
+</head>
+<body onload="startGame()">
+	<div class="container">
+	<h1>Tic Tac Toe</h1>
+	<div id="message">This is a message</div>
+	<div class="row bottom-bord">
+		<div class="col col-border" id="s1" onClick="nextMove(this)"></div>
+		<div class="col col-border" id="s2" onClick="nextMove(this)"></div>
+		<div class="col" id="s3" onClick="nextMove(this)"></div>
+	</div>
+	<div class="row bottom-bord">
+		<div class="col col-border" id="s4" onClick="nextMove(this)"></div>
+		<div class="col col-border" id="s5" onClick="nextMove(this)"></div>
+		<div class="col" id="s6" onClick="nextMove(this)"></div>
+	</div>
+	<div class="row ">
+		<div class="col col-border" id="s7" onClick="nextMove(this)"></div>
+		<div class="col col-border" id="s8" onClick="nextMove(this)"></div>
+		<div class="col" id="s9" onClick="nextMove(this)"></div>
+	</div>	
+</div>
+
+<div class="new">
+	<a href="javascript: startGame();" id="restart">Start Over</a>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

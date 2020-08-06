@@ -1,0 +1,53 @@
+body{
+	background-image: linear-gradient(to right,#FFFCFF,#D5FEFD
+);
+}
+.container{
+	width: 320px;
+	height:320px;
+	margin:auto;
+	margin-top: 100px;
+}
+h1{
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+#message{
+	font-size: 18pt;
+	font-family: 'Roboto Mono', monospace;
+}
+.row{
+	height: 100px;
+}
+.col{
+	height: 100px;
+	width: 100px;
+	float: left;
+	font-size: 100px;
+	text-align: center;
+	line-height: 100px;	
+	font-family: 'Covered By Your Grace', cursive;
+}
+.col:hover{
+	background-color:#F0F8FF;
+}
+.bottom-bord{
+	border-bottom: 10px solid black;
+
+}
+.col-border{
+	border-right: 10px solid black;
+}
+
+.new{
+	
+	margin: 171px;
+    margin-left: 427px;
+}
+#restart{
+	font-size: 18pt;
+	font-family: 'Roboto Mono', monospace;
+	text-decoration: none;
+	color:black;
+}
